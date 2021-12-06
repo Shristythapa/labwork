@@ -1,4 +1,5 @@
 #Given a n-digit number. Find the sum of its digits.
-n=int(input("enter a number"))
-for i in range(10):
+n=[1,2,3,4,5]
+sum=sum(n)
+print(sum)
 

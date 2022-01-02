@@ -6,3 +6,12 @@ c=int(input("third subject"))
 d=int(input("fourth subject"))
 e=(a+b+c+d)/400*100
 print(e)
+
+if e>70:
+    print("distiction")
+elif e>60:
+    print("first division")
+elif e>40:
+    print("pass")
+else:
+    print("fail")
